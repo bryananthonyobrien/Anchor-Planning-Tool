@@ -97,6 +97,28 @@ These statistics help evaluate how well the space is covered and how robust sign
 
 ---
 
+## 🐳 Running with Docker (No Python setup required)
+
+If you don't want to install Python and dependencies manually, you can run the tool using Docker:
+
+### 1. Build the Docker image:
+```bash
+docker build -t anchor-tiling-tool .
+```
+
+### 2. Run the tool:
+```bash
+docker run --rm -v $(pwd):/app anchor-tiling-tool
+```
+
+This mounts the current directory (`$(pwd)`) into the container so output files (`config_*.json`, `plot_*.png`, `config_*.log`) are saved back to your local filesystem.
+
+💡 **Tip**:
+- Make sure `coverage_density.json` and `config.json` are in the same directory before running.
+- The image will execute `tiling.py` automatically as its entry point.
+
+---
+
 ## License
 MIT or similar license placeholder.
 
@@ -104,4 +126,3 @@ MIT or similar license placeholder.
 
 ## Author
 Your Name / Team - 2025
-
