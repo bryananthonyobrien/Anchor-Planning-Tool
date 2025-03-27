@@ -25,7 +25,9 @@ Defines spatial and tiling parameters.
 - **radius**: Signal range of each anchor in meters.
 - **length / width**: Dimensions of the rectangular coverage area in meters.
 - **attempts**: Number of random placement retries if a proposed anchor is too close to another.
-- **density_factor**: Controls spacing. Minimum allowed distance between anchors is `radius / density_factor`. Note: if either the length or width is less than the radius - increasing this will no effect.
+- **density_factor**: Controls spacing. Minimum allowed distance between anchors is `radius / density_factor`.
+ 
+Note: if either the length or width is less than the radius - density_factor will not have the desired effect.
 
 ### `config.json`
 Provides simulation parameters.
