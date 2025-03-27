@@ -69,7 +69,13 @@ def tile_rectangle_with_circles(length, width, r, log_messages):
         if 0 <= x <= length and 0 <= y <= width:
             if not is_too_close(x, y):
                 circle_centers.append((x, y))
+                log_messages.append(
+                    f"Used initial position ({x:.2f}, {y:.2f})"
+                )
             else:
+                log_messages.append(
+                    f"Cannot use initial position ({x:.2f}, {y:.2f})"
+                )
                 try_random_position()
 
     for y in range(0, int(width), int(col_distance)):
@@ -212,5 +218,11 @@ config["coverage_stats"] = dict(sorted(coverage_percentages.items(), key=lambda 
 # Save output config
 with open(output_json_path, "w") as out:
     json.dump(config_template, out, indent=2)
+    
+    # Save log file at the end
+with open(output_log_path, "w") as log_file:
+    for message in log_messages:
+        log_file.write(message + "\n")
+
 
 print(f"\n✅ New config saved to: {output_json_path}")
