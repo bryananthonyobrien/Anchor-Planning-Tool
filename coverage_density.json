@@ -1,0 +1,7 @@
+{
+  "radius": 30,
+  "length": 100,
+  "width": 100,
+  "attempts":30,
+  "density_factor":4
+}

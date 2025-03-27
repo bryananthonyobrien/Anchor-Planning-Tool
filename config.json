@@ -1,0 +1,20 @@
+{
+  "anchors": [
+    { "id": 1, "x": 0.0, "y": 0.0 },
+    { "id": 2, "x": 10.0, "y": 0.0 }
+  ],
+  "tag_path": {
+    "from_anchor_id": 1,
+    "to_anchor_id": 2,
+    "height_cm": 183,
+    "mode": "steady_walk"
+  },
+  "device_profile": {
+    "name": "iPhone",
+    "P0": -49
+  },
+  "environment": {
+    "path_loss_exponent": 2.0,
+    "body_attenuation_dB": 6.0
+  }
+}
