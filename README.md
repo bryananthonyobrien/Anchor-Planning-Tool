@@ -125,4 +125,4 @@ MIT or similar license placeholder.
 ---
 
 ## Author
-Your Name / Team - 2025
+Bryan O'Brien / Personal Projects
