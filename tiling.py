@@ -28,12 +28,23 @@ def compute_coverage_stats(anchor_positions, length, width, radius):
         histogram[c] += 1
 
     total = len(covered_counts)
+
     print("\n📊 Coverage Stats (per 1m² cell):")
     for n in sorted(histogram.keys()):
         percent = 100 * histogram[n] / total
         print(f"  Covered by {n} anchor(s): {percent:.2f}%")
-    
-    return histogram
+
+    # Compute cumulative percentages for later if needed
+    sorted_counts = sorted(histogram.items())
+    running_total = 0
+    coverage_percentages = {}
+    for n, count in reversed(sorted_counts):
+        running_total += count
+        percent = 100 * running_total / total
+        coverage_percentages[str(n)] = round(percent, 2)
+
+    return histogram, coverage_percentages
+
 
 def tile_rectangle_with_circles(length, width, r, log_messages):
     row_distance = r / rows_per_radius
@@ -256,26 +267,35 @@ output_plot_path = os.path.join(current_dir, f"plot_{timestamp}.png")
 output_json_path = os.path.join(current_dir, f"config_{timestamp}.json")
 output_log_path = os.path.join(current_dir, f"config_{timestamp}.log")
 
-with open(output_log_path, "w") as log_file:
-    for message in log_messages:
-        log_file.write(message + "\n")
+# Compute stats
+histogram, coverage_percentages = compute_coverage_stats(anchor_positions, length, width, radius)
 
-coverage_stats = compute_coverage_stats(anchor_positions, length, width, radius)
+# Save raw (non-cumulative) percentages to config JSON
+config["coverage_stats"] = {
+    str(n): round(100 * histogram[n] / sum(histogram.values()), 2)
+    for n in sorted(histogram.keys())
+}
 
-# Append to log and save for JSON output
+# Append raw stats to log
 log_messages.append("\n📊 Coverage Stats (per 1m² cell):")
-total = sum(coverage_stats.values())
-sorted_counts = sorted(coverage_stats.items())
-running_total = 0
-coverage_percentages = {}
+total = sum(histogram.values())
+for n in sorted(histogram.keys()):
+    percent = 100 * histogram[n] / total
+    log_messages.append(f"  Covered by {n} anchor(s): {percent:.2f}%")
 
+# Append cumulative stats to log
 log_messages.append("\n📊 Coverage Stats (per 1m² cell, cumulative):")
+sorted_counts = sorted(histogram.items())
+running_total = 0
 for n, count in reversed(sorted_counts):
     running_total += count
     percent = 100 * running_total / total
-    log_line = f"  Covered by {n} anchor(s): {percent:.2f}%"
-    log_messages.append(log_line)
-    coverage_percentages[str(n)] = round(percent, 2)
+    log_messages.append(f"  Covered by {n} anchor(s): {percent:.2f}%")
+
+# Now write the log file (after appending all the log lines)
+with open(output_log_path, "w") as log_file:
+    for message in log_messages:
+        log_file.write(message + "\n")
 
 # Plot and save
 plot_anchor_positions_with_heatmap(anchor_positions, length, width, radius, save_path=output_plot_path)
@@ -300,7 +320,11 @@ config_template["anchors"] = anchor_dicts
 config["plot_file"] = os.path.basename(output_plot_path)
 config["log_file"] = os.path.basename(output_log_path)
 config_template["tiling_config"] = config
-config["coverage_stats"] = dict(sorted(coverage_percentages.items(), key=lambda item: int(item[0])))
+raw_coverage_percentages = {
+    str(n): round(100 * histogram[n] / total, 2)
+    for n in sorted(histogram.keys())
+}
+config["coverage_stats"] = raw_coverage_percentages
 
 # Save output config
 with open(output_json_path, "w") as out:

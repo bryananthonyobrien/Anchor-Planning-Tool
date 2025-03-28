@@ -1,8 +1,4 @@
 {
-  "anchors": [
-    { "id": 1, "x": 0.0, "y": 0.0 },
-    { "id": 2, "x": 10.0, "y": 0.0 }
-  ],
   "tag_path": {
     "from_anchor_id": 1,
     "to_anchor_id": 2,
