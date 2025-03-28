@@ -72,58 +72,8 @@ Defines simulation and radio characteristics.
 - `plot_file` / `log_file`: References to the output files.
 - `coverage_stats`: Cumulative coverage percentages (per m²).
 
-#### Example:
+#### Snippet:
 ```{
-  "anchors": [
-    {
-      "id": 1,
-      "x": "0.00",
-      "y": "0.00",
-      "loop_id": 1
-    },
-    {
-      "id": 2,
-      "x": "15.09",
-      "y": "19.10",
-      "loop_id": 1
-    },
-    {
-      "id": 3,
-      "x": "10.43",
-      "y": "10.29",
-      "loop_id": 1
-    },
-    {
-      "id": 4,
-      "x": "16.55",
-      "y": "5.76",
-      "loop_id": 1
-    },
-    {
-      "id": 5,
-      "x": "1.60",
-      "y": "17.90",
-      "loop_id": 1
-    },
-    {
-      "id": 6,
-      "x": "2.09",
-      "y": "7.32",
-      "loop_id": 1
-    },
-    {
-      "id": 7,
-      "x": "20.00",
-      "y": "13.00",
-      "loop_id": 2
-    },
-    {
-      "id": 8,
-      "x": "8.34",
-      "y": "1.00",
-      "loop_id": 2
-    }
-  ],
   "tag_path": {
     "from_anchor_id": 1,
     "to_anchor_id": 2,
@@ -138,27 +88,69 @@ Defines simulation and radio characteristics.
     "path_loss_exponent": 2.0,
     "body_attenuation_dB": 6.0
   },
+  "anchors": [
+    {
+      "id": 1,
+      "x": "0.00",
+      "y": "0.00",
+      "loop_id": 1
+    },
+    {
+      "id": 2,
+      "x": "15.00",
+      "y": "15.00",
+      "loop_id": 1
+    },
+    {
+      "id": 3,
+      "x": "30.00",
+      "y": "0.00",
+      "loop_id": 1
+    },
+    : 
+    {
+      "id": 74,
+      "x": "98.86",
+      "y": "50.48",
+      "loop_id": 4
+    }
+  ],
   "tiling_config": {
     "radius": 30,
-    "length": 20,
-    "width": 20,
+    "length": 100,
+    "width": 100,
     "attempts": 3,
     "density_factor": 4,
-    "rows_per_radius": 4,
-    "cols_per_radius": 4,
-    "plot_file": "plot_20250328_102916.png",
-    "log_file": "config_20250328_102916.log",
+    "rows_per_radius": 1,
+    "cols_per_radius": 1,
     "coverage_stats": {
-      "0": 100.0,
-      "1": 100.0,
-      "2": 100.0,
-      "3": 100.0,
-      "4": 100.0,
-      "5": 100.0,
-      "6": 100.0,
-      "7": 100.0,
-      "8": 100.0
-    }
+      "0": 0.0,
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.0,
+      "5": 0.0,
+      "6": 0.19,
+      "7": 0.73,
+      "8": 3.36,
+      "9": 2.81,
+      "10": 6.62,
+      "11": 7.95,
+      "12": 9.14,
+      "13": 9.67,
+      "14": 12.82,
+      "15": 13.04,
+      "16": 10.26,
+      "17": 8.92,
+      "18": 5.44,
+      "19": 4.36,
+      "20": 3.07,
+      "21": 1.19,
+      "22": 0.4,
+      "23": 0.03
+    },
+    "plot_file": "plot_20250328_113227.png",
+    "log_file": "config_20250328_113227.log"
   }
 }
 ```
@@ -179,21 +171,14 @@ A rendered plot showing:
 - Fallback attempts
 - Coverage stats
 
-<details>
-<summary>📂 Sample Log Snippet</summary>
+### `config_{timestamp}.log`
+Contains:
+- Detailed log of anchor placement
+- Violations (e.g. too-close anchors)
+- Fallback attempts
+- Coverage stats (raw and cumulative)
 
-```
-Used initial position (0.00, 0.00) from loop 1  
-Cannot use initial position (3.75, 3.75) from loop 1  
-Used random position (15.09, 19.10) on attempt 1  
-...
-📊 Coverage Stats (per 1m² cell, cumulative):
-  Covered by 8 anchor(s): 100.00%
-  Covered by 7 anchor(s): 100.00%
-  ...
-```
-
-</details>
+📄 [View sample log](examples/config_log_example.log)
 
 ---
 
