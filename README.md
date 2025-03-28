@@ -154,6 +154,7 @@ Defines simulation and radio characteristics.
   }
 }
 ```
+📄 [View full json](examples/config_output_example.json)
 
 ### `plot_{timestamp}.png`
 A rendered plot showing:
@@ -164,12 +165,6 @@ A rendered plot showing:
 - Legend below indicating loop origin
 
 ![Example Plot](examples/coverage_heatmap_example.png)
-
-### `config_{timestamp}.log`
-- Detailed log of placements
-- Violations (too close)
-- Fallback attempts
-- Coverage stats
 
 ### `config_{timestamp}.log`
 Contains:

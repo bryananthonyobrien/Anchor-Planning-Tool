@@ -2,3 +2,7 @@
 plot_*.png
 config_*.json
 config_*.log
+# Allow specific example files
+!examples/config_log_example.log
+!examples/config_output_example.json
+
