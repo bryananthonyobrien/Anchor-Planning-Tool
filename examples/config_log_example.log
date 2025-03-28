@@ -1,0 +1,230 @@
+Used initial position (0.00, 0.00) from loop 1
+Used initial position (15.00, 15.00) from loop 1
+Used initial position (30.00, 0.00) from loop 1
+Used initial position (45.00, 15.00) from loop 1
+Used initial position (60.00, 0.00) from loop 1
+Used initial position (75.00, 15.00) from loop 1
+Used initial position (90.00, 0.00) from loop 1
+Cannot use initial position (105.00, 15.00) out of bounds 1
+Used initial position (0.00, 30.00) from loop 1
+Used initial position (15.00, 45.00) from loop 1
+Used initial position (30.00, 30.00) from loop 1
+Used initial position (45.00, 45.00) from loop 1
+Used initial position (60.00, 30.00) from loop 1
+Used initial position (75.00, 45.00) from loop 1
+Used initial position (90.00, 30.00) from loop 1
+Cannot use initial position (105.00, 45.00) out of bounds 1
+Used initial position (0.00, 60.00) from loop 1
+Used initial position (15.00, 75.00) from loop 1
+Used initial position (30.00, 60.00) from loop 1
+Used initial position (45.00, 75.00) from loop 1
+Used initial position (60.00, 60.00) from loop 1
+Used initial position (75.00, 75.00) from loop 1
+Used initial position (90.00, 60.00) from loop 1
+Cannot use initial position (105.00, 75.00) out of bounds 1
+Used initial position (0.00, 90.00) from loop 1
+Cannot use initial position (15.00, 105.00) out of bounds 1
+Used initial position (30.00, 90.00) from loop 1
+Cannot use initial position (45.00, 105.00) out of bounds 1
+Used initial position (60.00, 90.00) from loop 1
+Cannot use initial position (75.00, 105.00) out of bounds 1
+Used initial position (90.00, 90.00) from loop 1
+Cannot use initial position (105.00, 105.00) out of bounds 1
+Used initial position (100.00, 100.00) from loop 2
+Used initial position (70.00, 100.00) from loop 2
+Used initial position (40.00, 100.00) from loop 2
+Used initial position (10.00, 100.00) from loop 2
+Used initial position (100.00, 70.00) from loop 2
+(75.00,75.00) and (70.00,70.00) are 7.07m apart - need at least 7.50m
+Cannot use initial position (70.00, 70.00) from loop 2
+Used random position (55.37, 40.36) on attempt 1
+(45.00,75.00) and (40.00,70.00) are 7.07m apart - need at least 7.50m
+Cannot use initial position (40.00, 70.00) from loop 2
+Used random position (37.11, 15.98) on attempt 1
+(15.00,75.00) and (10.00,70.00) are 7.07m apart - need at least 7.50m
+Cannot use initial position (10.00, 70.00) from loop 2
+(15.00,75.00) and (18.02,76.89) are 3.56m apart - need at least 7.50m
+Used random position (99.94, 29.18) on attempt 2
+Used initial position (100.00, 40.00) from loop 2
+(75.00,45.00) and (70.00,40.00) are 7.07m apart - need at least 7.50m
+Cannot use initial position (70.00, 40.00) from loop 2
+Used random position (48.20, 26.45) on attempt 1
+(45.00,45.00) and (40.00,40.00) are 7.07m apart - need at least 7.50m
+Cannot use initial position (40.00, 40.00) from loop 2
+Used random position (52.04, 10.92) on attempt 1
+(15.00,45.00) and (10.00,40.00) are 7.07m apart - need at least 7.50m
+Cannot use initial position (10.00, 40.00) from loop 2
+Used random position (37.58, 55.22) on attempt 1
+Used initial position (100.00, 10.00) from loop 2
+(75.00,15.00) and (70.00,10.00) are 7.07m apart - need at least 7.50m
+Cannot use initial position (70.00, 10.00) from loop 2
+(15.00,45.00) and (11.88,40.02) are 5.88m apart - need at least 7.50m
+Used random position (5.88, 8.53) on attempt 2
+(45.00,15.00) and (40.00,10.00) are 7.07m apart - need at least 7.50m
+Cannot use initial position (40.00, 10.00) from loop 2
+(45.00,75.00) and (43.74,81.81) are 6.92m apart - need at least 7.50m
+Used random position (68.27, 4.85) on attempt 2
+(15.00,15.00) and (10.00,10.00) are 7.07m apart - need at least 7.50m
+Cannot use initial position (10.00, 10.00) from loop 2
+Used random position (66.51, 42.30) on attempt 1
+Used initial position (0.00, 100.00) from loop 3
+Used initial position (15.00, 85.00) from loop 3
+Used initial position (30.00, 100.00) from loop 3
+Used initial position (45.00, 85.00) from loop 3
+Used initial position (60.00, 100.00) from loop 3
+Used initial position (75.00, 85.00) from loop 3
+Used initial position (90.00, 100.00) from loop 3
+Cannot use initial position (105.00, 85.00) out of bounds 3
+Used initial position (0.00, 70.00) from loop 3
+Used initial position (15.00, 55.00) from loop 3
+Used initial position (30.00, 70.00) from loop 3
+(37.58,55.22) and (45.00,55.00) are 7.42m apart - need at least 7.50m
+Cannot use initial position (45.00, 55.00) from loop 3
+Used random position (82.91, 24.25) on attempt 1
+Used initial position (60.00, 70.00) from loop 3
+Used initial position (75.00, 55.00) from loop 3
+Used initial position (90.00, 70.00) from loop 3
+Cannot use initial position (105.00, 55.00) out of bounds 3
+Used initial position (0.00, 40.00) from loop 3
+Used initial position (15.00, 25.00) from loop 3
+Used initial position (30.00, 40.00) from loop 3
+(48.20,26.45) and (45.00,25.00) are 3.51m apart - need at least 7.50m
+Cannot use initial position (45.00, 25.00) from loop 3
+(60.00,100.00) and (62.65,98.10) are 3.26m apart - need at least 7.50m
+(40.00,100.00) and (40.25,95.18) are 4.83m apart - need at least 7.50m
+(100.00,70.00) and (99.82,69.27) are 0.76m apart - need at least 7.50m
+Failed to find valid random position after 3 attempts.
+(55.37,40.36) and (60.00,40.00) are 4.65m apart - need at least 7.50m
+Cannot use initial position (60.00, 40.00) from loop 3
+Used random position (37.57, 29.08) on attempt 1
+Used initial position (75.00, 25.00) from loop 3
+Used initial position (90.00, 40.00) from loop 3
+Cannot use initial position (105.00, 25.00) out of bounds 3
+(5.88,8.53) and (0.00,10.00) are 6.06m apart - need at least 7.50m
+Cannot use initial position (0.00, 10.00) from loop 3
+(66.51,42.30) and (65.03,39.36) are 3.29m apart - need at least 7.50m
+(0.00,0.00) and (0.34,3.12) are 3.14m apart - need at least 7.50m
+Used random position (49.58, 56.85) on attempt 3
+Cannot use initial position (15.00, -5.00) out of bounds 3
+Used initial position (30.00, 10.00) from loop 3
+Cannot use initial position (45.00, -5.00) out of bounds 3
+Used initial position (60.00, 10.00) from loop 3
+Cannot use initial position (75.00, -5.00) out of bounds 3
+Used initial position (90.00, 10.00) from loop 3
+Cannot use initial position (105.00, -5.00) out of bounds 3
+Used initial position (100.00, 0.00) from loop 4
+(68.27,4.85) and (70.00,0.00) are 5.15m apart - need at least 7.50m
+Cannot use initial position (70.00, 0.00) from loop 4
+(15.00,55.00) and (22.13,55.72) are 7.16m apart - need at least 7.50m
+(30.00,30.00) and (35.50,30.10) are 5.50m apart - need at least 7.50m
+(70.00,100.00) and (72.99,93.16) are 7.47m apart - need at least 7.50m
+Failed to find valid random position after 3 attempts.
+Used initial position (40.00, 0.00) from loop 4
+Used initial position (10.00, 0.00) from loop 4
+(99.94,29.18) and (100.00,30.00) are 0.82m apart - need at least 7.50m
+Cannot use initial position (100.00, 30.00) from loop 4
+(75.00,45.00) and (73.91,39.93) are 5.18m apart - need at least 7.50m
+(30.00,10.00) and (27.83,10.22) are 2.18m apart - need at least 7.50m
+(15.00,75.00) and (16.70,70.34) are 4.96m apart - need at least 7.50m
+Failed to find valid random position after 3 attempts.
+(75.00,25.00) and (70.00,30.00) are 7.07m apart - need at least 7.50m
+Cannot use initial position (70.00, 30.00) from loop 4
+(70.00,100.00) and (66.30,98.53) are 3.98m apart - need at least 7.50m
+(75.00,55.00) and (76.58,54.00) are 1.87m apart - need at least 7.50m
+(90.00,90.00) and (91.25,83.92) are 6.21m apart - need at least 7.50m
+Failed to find valid random position after 3 attempts.
+(37.57,29.08) and (40.00,30.00) are 2.60m apart - need at least 7.50m
+Cannot use initial position (40.00, 30.00) from loop 4
+(90.00,30.00) and (92.73,36.43) are 6.98m apart - need at least 7.50m
+(75.00,15.00) and (76.16,20.48) are 5.60m apart - need at least 7.50m
+(100.00,70.00) and (98.14,70.39) are 1.90m apart - need at least 7.50m
+Failed to find valid random position after 3 attempts.
+(15.00,25.00) and (10.00,30.00) are 7.07m apart - need at least 7.50m
+Cannot use initial position (10.00, 30.00) from loop 4
+(90.00,0.00) and (95.75,4.40) are 7.24m apart - need at least 7.50m
+(90.00,100.00) and (83.65,96.65) are 7.18m apart - need at least 7.50m
+(60.00,60.00) and (57.43,64.85) are 5.49m apart - need at least 7.50m
+Failed to find valid random position after 3 attempts.
+Used initial position (100.00, 60.00) from loop 4
+(75.00,55.00) and (70.00,60.00) are 7.07m apart - need at least 7.50m
+Cannot use initial position (70.00, 60.00) from loop 4
+(15.00,75.00) and (17.35,76.70) are 2.90m apart - need at least 7.50m
+(30.00,30.00) and (37.34,29.56) are 7.35m apart - need at least 7.50m
+(5.88,8.53) and (4.75,9.48) are 1.48m apart - need at least 7.50m
+Failed to find valid random position after 3 attempts.
+(37.58,55.22) and (40.00,60.00) are 5.35m apart - need at least 7.50m
+Cannot use initial position (40.00, 60.00) from loop 4
+(45.00,75.00) and (42.28,79.89) are 5.60m apart - need at least 7.50m
+(75.00,55.00) and (80.24,56.79) are 5.53m apart - need at least 7.50m
+Used random position (80.64, 36.91) on attempt 3
+(15.00,55.00) and (10.00,60.00) are 7.07m apart - need at least 7.50m
+Cannot use initial position (10.00, 60.00) from loop 4
+(15.00,55.00) and (20.74,54.77) are 5.74m apart - need at least 7.50m
+(30.00,0.00) and (25.28,3.80) are 6.06m apart - need at least 7.50m
+Used random position (84.23, 82.42) on attempt 3
+Used initial position (100.00, 90.00) from loop 4
+(75.00,85.00) and (70.00,90.00) are 7.07m apart - need at least 7.50m
+Cannot use initial position (70.00, 90.00) from loop 4
+Used random position (66.61, 17.78) on attempt 1
+(45.00,85.00) and (40.00,90.00) are 7.07m apart - need at least 7.50m
+Cannot use initial position (40.00, 90.00) from loop 4
+Used random position (98.86, 50.48) on attempt 1
+(15.00,85.00) and (10.00,90.00) are 7.07m apart - need at least 7.50m
+Cannot use initial position (10.00, 90.00) from loop 4
+(15.00,55.00) and (19.82,53.19) are 5.15m apart - need at least 7.50m
+(0.00,90.00) and (2.16,94.81) are 5.28m apart - need at least 7.50m
+(90.00,30.00) and (90.43,29.74) are 0.50m apart - need at least 7.50m
+Failed to find valid random position after 3 attempts.
+🔍 Grid positions considered for placement: 96
+
+📊 Coverage Stats (per 1m² cell):
+  Covered by 0 anchor(s): 0.00%
+  Covered by 1 anchor(s): 0.00%
+  Covered by 2 anchor(s): 0.00%
+  Covered by 3 anchor(s): 0.00%
+  Covered by 4 anchor(s): 0.00%
+  Covered by 5 anchor(s): 0.00%
+  Covered by 6 anchor(s): 0.19%
+  Covered by 7 anchor(s): 0.73%
+  Covered by 8 anchor(s): 3.36%
+  Covered by 9 anchor(s): 2.81%
+  Covered by 10 anchor(s): 6.62%
+  Covered by 11 anchor(s): 7.95%
+  Covered by 12 anchor(s): 9.14%
+  Covered by 13 anchor(s): 9.67%
+  Covered by 14 anchor(s): 12.82%
+  Covered by 15 anchor(s): 13.04%
+  Covered by 16 anchor(s): 10.26%
+  Covered by 17 anchor(s): 8.92%
+  Covered by 18 anchor(s): 5.44%
+  Covered by 19 anchor(s): 4.36%
+  Covered by 20 anchor(s): 3.07%
+  Covered by 21 anchor(s): 1.19%
+  Covered by 22 anchor(s): 0.40%
+  Covered by 23 anchor(s): 0.03%
+
+📊 Coverage Stats (per 1m² cell, cumulative):
+  Covered by 23 anchor(s): 0.03%
+  Covered by 22 anchor(s): 0.43%
+  Covered by 21 anchor(s): 1.62%
+  Covered by 20 anchor(s): 4.69%
+  Covered by 19 anchor(s): 9.05%
+  Covered by 18 anchor(s): 14.49%
+  Covered by 17 anchor(s): 23.41%
+  Covered by 16 anchor(s): 33.67%
+  Covered by 15 anchor(s): 46.71%
+  Covered by 14 anchor(s): 59.53%
+  Covered by 13 anchor(s): 69.20%
+  Covered by 12 anchor(s): 78.34%
+  Covered by 11 anchor(s): 86.29%
+  Covered by 10 anchor(s): 92.91%
+  Covered by 9 anchor(s): 95.72%
+  Covered by 8 anchor(s): 99.08%
+  Covered by 7 anchor(s): 99.81%
+  Covered by 6 anchor(s): 100.00%
+  Covered by 5 anchor(s): 100.00%
+  Covered by 4 anchor(s): 100.00%
+  Covered by 3 anchor(s): 100.00%
+  Covered by 2 anchor(s): 100.00%
+  Covered by 1 anchor(s): 100.00%
+  Covered by 0 anchor(s): 100.00%
