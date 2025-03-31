@@ -188,6 +188,12 @@ def plot_anchor_positions_with_heatmap(anchor_positions, length, width, radius, 
     for x, y, _ in anchor_positions:
         circle = plt.Circle((x, y), radius, color='blue', fill=False, linestyle='--', alpha=0.3)
         plt.gca().add_artist(circle)
+        
+     # Draw anchor labels if number of anchors is manageable
+    if num_anchors < 30:
+        for idx, (x, y, _) in enumerate(anchor_positions):
+            plt.text(x, y, str(idx + 1), fontsize=8, ha='center', va='center', color='black')
+
 
     plt.xlim(0, length)
     plt.ylim(0, width)
