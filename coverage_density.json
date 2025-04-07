@@ -2,8 +2,8 @@
   "radius": 30,
   "length": 50,
   "width": 50,
-  "attempts":3,
-  "density_factor":2,
-  "rows_per_radius": 4,
-  "cols_per_radius": 4
+  "attempts":7,
+  "density_factor":12,
+  "rows_per_radius": 9,
+  "cols_per_radius": 9
 }
